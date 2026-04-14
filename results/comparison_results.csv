@@ -1,0 +1,8 @@
+﻿query_id,description,sqlite_row_count,mongodb_row_count,sqlite_avg_time_sec,mongodb_avg_time_sec,difference_sqlite_minus_mongodb_sec,time_ratio_sqlite_div_mongodb,faster_system
+Q1,Ταινίες είδους Comedy,123670,123670,0.235688,0.365518,-0.129830,0.644805,SQLite
+Q2,Ταινίες από το 2000 έως το 2010,91936,91936,0.226662,0.226428,0.000234,1.001033,MongoDB
+Q3,Ταινίες με βαθμολογία > 8.0 και ψήφους > 100000,254,254,0.013272,0.010680,0.002592,1.242697,MongoDB
+Q4,Ταινίες του Robert Pattinson με είδος Romance,5,5,0.000328,0.000937,-0.000609,0.350053,SQLite
+Q5,Ταινίες του James Cameron μετά το 1990,11,11,0.000190,0.000823,-0.000633,0.230863,SQLite
+Q6,Πλήθος ταινιών ανά είδος,27,27,1.235711,1.080262,0.155449,1.143899,MongoDB
+Q7,Μέσος όρος βαθμολογίας ανά είδος,27,27,0.851257,1.038437,-0.187180,0.819748,SQLite
